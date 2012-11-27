@@ -1,0 +1,17 @@
+clever bits
+paul andres
+
+pretty bits
+rodney smith
+
+noisy bits
+blair zuppicich
+
+produced by
+vision software
+
+for acid software
+written in blitz basic 2
+and converted to haxe nme
+
+sprites 
