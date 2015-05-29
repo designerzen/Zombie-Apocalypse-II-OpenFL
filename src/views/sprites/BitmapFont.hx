@@ -8,8 +8,8 @@ use SpriteSheetFont
 
 package views.sprites;
 
-import nme.display.Bitmap;
-import nme.display.BitmapData;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
 
 class BitmapFont
 {

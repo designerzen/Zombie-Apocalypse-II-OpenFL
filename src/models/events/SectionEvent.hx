@@ -1,6 +1,6 @@
 package models.events;
 
-import nme.events.Event;
+import openfl.events.Event;
 
 class SectionEvent extends Event
 {

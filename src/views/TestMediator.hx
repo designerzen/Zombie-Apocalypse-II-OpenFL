@@ -1,5 +1,5 @@
 package views;
-import nme.display.Sprite;
+import openfl.display.Sprite;
 import views.sections.Credits;
 
 //import views.sections.TitleScreen;

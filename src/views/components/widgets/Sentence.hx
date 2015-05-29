@@ -4,9 +4,9 @@ package views.components.widgets;
  * ...
  * @author zen
  */
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 import views.components.characters.FontLetter;
 
 class Sentence  extends Bitmap
@@ -16,9 +16,9 @@ class Sentence  extends Bitmap
 	private var sentence:String = '';
 	private var kerning:Int = 1;
 	private var compositeWidth:Int = 0;
-	public var text ( getText, setText ):String;
+	public var text ( get_text, set_text ):String;
 	
-	public function setText( string:String ):String
+	public function set_text( string:String ):String
 	{
 		if ( string == "" ) return sentence = '';
 		
@@ -39,7 +39,7 @@ class Sentence  extends Bitmap
 		return sentence;
 	}
 	
-	public function getText():String
+	public function get_text():String
 	{
 		return sentence;
 	}
@@ -48,7 +48,7 @@ class Sentence  extends Bitmap
 	{
 		letter = new FontLetter( );
 		super( new BitmapData( Std.int(25 * letter.dimensions.width) , Std.int(letter.dimensions.height), true, 0 ) );
-		setText( defaultText );
+		set_text( defaultText );
 	}
 	
 	public function setCharacter( position:Int, character:String ):Void

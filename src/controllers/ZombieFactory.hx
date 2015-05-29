@@ -1,5 +1,5 @@
 package controllers;
-import nme.geom.Rectangle;
+import openfl.geom.Rectangle;
 import views.components.characters.Character;
 import views.components.characters.NudeZombie;
 import views.components.characters.PriestZombie;

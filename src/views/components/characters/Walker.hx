@@ -1,10 +1,10 @@
 package views.components.characters;
 
-import nme.Assets;
-import nme.display.BitmapData;
-import nme.display.Tilesheet;
-import nme.geom.Point;
-import nme.geom.Rectangle;
+import openfl.Assets;
+import openfl.display.BitmapData;
+import openfl.display.Tilesheet;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 class Walker extends Character
 {

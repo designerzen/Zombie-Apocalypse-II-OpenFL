@@ -1,12 +1,12 @@
 package views.sections;
 
 import models.events.SectionEvent;
-import nme.Assets;
-import nme.display.BitmapData;
-import nme.events.Event;
-import nme.events.MouseEvent;
-import nme.media.Sound;
-import nme.media.SoundChannel;
+import openfl.Assets;
+import openfl.display.BitmapData;
+import openfl.events.Event;
+import openfl.events.MouseEvent;
+import openfl.media.Sound;
+import openfl.media.SoundChannel;
 import views.components.widgets.Sentence;
 import views.sections.Section;
 
@@ -55,7 +55,7 @@ class Credits extends Section
 		onDurationComplete();
 	}
 	
-	override private function removed():Dynamic 
+	override private function removed():Void 
 	{
 		removeEventListener( MouseEvent.MOUSE_DOWN, onMouseDown );
 		

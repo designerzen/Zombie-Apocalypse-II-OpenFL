@@ -1,6 +1,6 @@
 package views.components.widgets;
 
-import nme.display.Shape;
+import openfl.display.Shape;
 
 class HealthMeter extends Shape
 {

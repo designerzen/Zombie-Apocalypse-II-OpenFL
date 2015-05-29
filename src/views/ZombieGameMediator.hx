@@ -2,8 +2,8 @@ package views;
 
 import controllers.input.GlobalInput;
 import models.events.PlayerEvent;
-import nme.events.KeyboardEvent;
-import nme.events.MouseEvent;
+import openfl.events.KeyboardEvent;
+import openfl.events.MouseEvent;
 
 import models.Player;
 
@@ -34,7 +34,7 @@ class ZombieGameMediator extends GameMediator
 		super();
 	}
 	
-	override private function added():Dynamic 
+	override private function added():Void 
 	{
 		//stage.frameRate = 24;
 		

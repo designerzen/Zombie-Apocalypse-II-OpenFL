@@ -4,8 +4,8 @@ import controllers.input.GlobalInput;
 import controllers.input.Keys;
 import controllers.input.Mouse;
 import models.events.SectionEvent;
-import nme.display.BitmapData;
-import nme.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 import views.components.characters.Character;
 import views.components.widgets.Cursor;
 

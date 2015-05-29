@@ -1,9 +1,9 @@
 package controllers.input;
 
-import nme.display.Stage;
-import nme.events.EventDispatcher;
-import nme.events.MouseEvent;
-import nme.Lib;
+import openfl.display.Stage;
+import openfl.events.EventDispatcher;
+import openfl.events.MouseEvent;
+import openfl.Lib;
 
 class Mouse extends EventDispatcher
 {

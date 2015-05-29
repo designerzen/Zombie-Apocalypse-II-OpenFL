@@ -2,8 +2,8 @@ package views.sections;
 import controllers.PowerUpFactory;
 import controllers.ZombieFactory;
 import models.events.SectionEvent;
-import nme.display.BitmapData;
-import nme.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 import views.components.characters.Character;
 import views.components.characters.NudeZombie;
 import views.components.characters.PriestZombie;
@@ -31,7 +31,7 @@ class FPSZombieSection extends FPSSection
 		super( bitmapData, sectionID, mask );
 	}
 	
-	override private function added():Dynamic 
+	override private function added():Void 
 	{
 		// make some baddies...
 		powerUps = new PowerUpFactory( viewPort );
@@ -119,6 +119,7 @@ class FPSZombieSection extends FPSSection
 									//baddy.x += ((Math.random() * 5) - 1);
 								//case NudeZombie.TYPE:
 									//baddy.x += 1;
+								default:
 							}
 							factory.spawn();
 						}

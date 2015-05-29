@@ -1,7 +1,7 @@
 package views.sprites;
 
-import nme.display.BitmapData;
-import nme.geom.Rectangle;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 
 class BitmapSpriteFrame
 {

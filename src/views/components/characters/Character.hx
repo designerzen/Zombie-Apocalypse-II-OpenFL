@@ -1,9 +1,9 @@
 package views.components.characters;
 
-import nme.display.BitmapData;
-import nme.display.Sprite;
-import nme.geom.Rectangle;
-import nme.Lib;
+import openfl.display.BitmapData;
+import openfl.display.Sprite;
+import openfl.geom.Rectangle;
+import openfl.Lib;
 import views.sprites.SpriteSheet;
 
 class Character extends SpriteSheet
@@ -15,9 +15,9 @@ class Character extends SpriteSheet
 	// TODO : Override width & height with currentFrame.mask
 	
 	//override 
-	public var dimensions( getCurrentMask, null ):Rectangle;
+	public var dimensions( get_dimensions, null ):Rectangle;
 	
-	private function getCurrentMask( ):Rectangle
+	private function get_dimensions( ):Rectangle
 	{
 		return activeFrame.mask;
 	}
@@ -39,13 +39,13 @@ class Character extends SpriteSheet
 	private var fps:Int = 15;
 	private var beginTime:Int;
 	private var frameDuration:Float;
-	public var frameRate( getFrameRate, setFrameRate ):Int;
+	public var frameRate( get_frameRate, set_frameRate ):Int;
 	
-	private function getFrameRate():Int
+	private function get_frameRate():Int
 	{
 		return fps;
 	}
-	public function setFrameRate( framesPerSecond:Int=32 ):Int
+	public function set_frameRate( framesPerSecond:Int=32 ):Int
 	{
 		beginTime = 0;
 		frameDuration = 1000 / framesPerSecond;

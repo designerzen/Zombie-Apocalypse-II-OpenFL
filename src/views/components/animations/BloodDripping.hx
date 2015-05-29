@@ -1,8 +1,8 @@
 package views.components.animations;
 
-import nme.display.BitmapData;
-import nme.events.Event;
-import nme.events.EventDispatcher;
+import openfl.display.BitmapData;
+import openfl.events.Event;
+import openfl.events.EventDispatcher;
 
 class BloodDripping extends EventDispatcher
 {

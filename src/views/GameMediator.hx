@@ -1,8 +1,8 @@
 package views;
 
 import models.Player;
-import nme.display.Sprite;
-import nme.events.MouseEvent;
+import openfl.display.Sprite;
+import openfl.events.MouseEvent;
 
 import flash.events.Event;
 import models.events.SectionEvent;

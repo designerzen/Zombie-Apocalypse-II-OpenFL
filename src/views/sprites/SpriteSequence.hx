@@ -1,7 +1,7 @@
 package views.sprites;
 
-import nme.errors.Error;
-import nme.geom.Rectangle;
+import openfl.errors.Error;
+import openfl.geom.Rectangle;
 
 // A simple model sub class to hold named sequences of frames
 class SpriteSequence
@@ -10,14 +10,14 @@ class SpriteSequence
 	
 	public var name:String;
 	public var frames:Array<SpriteFrame>;
-	public var library:Hash<SpriteFrame>;
+	public var library:Map<String, SpriteFrame>;
 	
 	public var quantity:Int = 0;
 	public var position:Int = 0;
 	
 	public function new( id:String="default", framesInSequence:Array<SpriteFrame>=null )
 	{
-		library = new Hash<SpriteFrame>();
+		library = new Map();
 		name = id;
 		if ( framesInSequence != null )
 		{

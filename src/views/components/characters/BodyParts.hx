@@ -1,6 +1,6 @@
 package views.components.characters;
 import models.PhysicalProperties;
-import nme.Assets;
+import openfl.Assets;
 import views.sprites.tools.SpriteSheetCreator;
 
 /**

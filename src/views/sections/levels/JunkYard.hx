@@ -1,7 +1,7 @@
 package views.sections.levels;
 
-import nme.Assets;
-import nme.geom.Rectangle;
+import openfl.Assets;
+import openfl.geom.Rectangle;
 
 
 class JunkYard extends FPSZombieSection

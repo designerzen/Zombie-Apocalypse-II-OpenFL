@@ -1,13 +1,13 @@
 package views.sections.levels;
 
-import nme.geom.Point;
-import nme.Assets;
-import nme.events.MouseEvent;
+import openfl.geom.Point;
+import openfl.Assets;
+import openfl.events.MouseEvent;
 import views.sections.Section;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.events.MouseEvent;
-import nme.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.events.MouseEvent;
+import openfl.geom.Rectangle;
 import views.sections.Section;
 import views.sprites.BitmapMovieClip;
 import views.sprites.SpriteSequence;

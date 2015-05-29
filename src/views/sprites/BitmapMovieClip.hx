@@ -1,10 +1,10 @@
 package views.sprites;
 
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.Sprite;
-import nme.events.Event;
-import nme.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.Sprite;
+import openfl.events.Event;
+import openfl.geom.Rectangle;
 
 class BitmapMovieClip extends Sprite
 {

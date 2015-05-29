@@ -1,12 +1,12 @@
 package views.sprites;
 
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.errors.ArgumentError;
-import nme.errors.Error;
-import nme.events.Event;
-import nme.geom.Point;
-import nme.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.errors.ArgumentError;
+import openfl.errors.Error;
+import openfl.events.Event;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
 
 /*
 
@@ -21,7 +21,7 @@ class SpriteSheet extends Bitmap
 	private var position:Point;
 	private var source:BitmapData;
 	
-	private var sequences:Hash<SpriteSequence>;
+	private var sequences:Map<String,SpriteSequence>;
 	
 	public var activeFrame:SpriteFrame;
 	
@@ -32,7 +32,7 @@ class SpriteSheet extends Bitmap
 		
 		position = new Point();
 		oblong = new Rectangle();
-		sequences = new Hash();
+		sequences = new Map( );
 		sequences.set( "default", new SpriteSequence( ) );
 		
 		super();

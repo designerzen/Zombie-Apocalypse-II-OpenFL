@@ -15,14 +15,14 @@ class Factory
 	public var first:Character;
 	public var last:Character;
 	
-	public var isLast ( lastCharacterTest, null ) :Bool;
+	public var isLast ( get_isLast, null ) :Bool;
 	
 	public function new() 
 	{
 
 	}
 	
-	private function lastCharacterTest( ):Bool
+	private function get_isLast( ):Bool
 	{
 		return ( first == last );
 	}

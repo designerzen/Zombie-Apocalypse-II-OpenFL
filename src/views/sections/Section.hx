@@ -1,14 +1,14 @@
 package views.sections;
 
 import models.Player;
-import nme.geom.Point;
-import nme.geom.Rectangle;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.PixelSnapping;
-import nme.display.Sprite;
-import nme.events.Event;
-import nme.Lib;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.PixelSnapping;
+import openfl.display.Sprite;
+import openfl.events.Event;
+import openfl.Lib;
 
 class Section extends Sprite
 {

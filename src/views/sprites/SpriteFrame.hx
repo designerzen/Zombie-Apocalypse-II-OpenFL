@@ -1,5 +1,5 @@
 package views.sprites;
-import nme.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 
 // A simple model sub class to hold individual frame data

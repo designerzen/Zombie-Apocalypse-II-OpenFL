@@ -1,6 +1,6 @@
 package models;
 
-import nme.events.EventDispatcher;
+import openfl.events.EventDispatcher;
 
 class Player extends EventDispatcher
 {

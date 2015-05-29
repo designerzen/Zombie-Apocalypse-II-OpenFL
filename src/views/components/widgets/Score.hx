@@ -1,7 +1,7 @@
 package views.components.widgets;
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.geom.Rectangle;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.geom.Rectangle;
 import views.components.characters.FontLetter;
 
 /*
@@ -12,18 +12,18 @@ A simple score setter and view
 
 class Score extends Sentence
 {
-	public var score ( getScore, setScore ):Int;
+	public var score ( get_score, set_score ):Int;
 	
 	private var value:Int = 0;
 	
-	public function setScore( points:Int ):Int
+	public function set_score( points:Int ):Int
 	{
 		value = points;
-		setText( points + "" );
+		set_text( points + "" );
 		return value;
 	}
 	
-	public function getScore():Int
+	public function get_score():Int
 	{
 		return value;
 	}
@@ -31,6 +31,6 @@ class Score extends Sentence
 	public function new( startingScore:Int=0 ) 
 	{
 		super();
-		setScore( startingScore );
+		set_score( startingScore );
 	}
 }

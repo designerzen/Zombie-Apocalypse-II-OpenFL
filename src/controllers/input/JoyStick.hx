@@ -1,5 +1,5 @@
 package controllers.input;
-import nme.events.EventDispatcher;
+import openfl.events.EventDispatcher;
 
 /**
  * ...

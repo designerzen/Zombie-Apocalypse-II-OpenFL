@@ -1,9 +1,9 @@
 package controllers.input;
 
-import nme.display.Stage;
-import nme.events.EventDispatcher;
-import nme.events.KeyboardEvent;
-import nme.Lib;
+import openfl.display.Stage;
+import openfl.events.EventDispatcher;
+import openfl.events.KeyboardEvent;
+import openfl.Lib;
 
 class Keys extends EventDispatcher
 {

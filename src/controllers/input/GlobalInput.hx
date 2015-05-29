@@ -10,15 +10,15 @@ Static instances of regularly used input methods
 
 class GlobalInput 
 {
-	static public var mouse ( getMouse, null ):Mouse;
-	static public var keyboard ( getKeyboard, null ) :Keys;
+	static public var mouse ( get_mouse, null ):Mouse;
+	static public var keyboard ( get_keyboard, null ) :Keys;
 
-	static inline public function getMouse( ):Mouse
+	static inline public function get_mouse( ):Mouse
 	{
 		if ( mouse == null ) mouse = new Mouse();
 		return mouse;
 	}
-	static inline public function getKeyboard( ):Keys
+	static inline public function get_keyboard( ):Keys
 	{
 		if ( keyboard == null ) keyboard = new Keys();
 		return keyboard;

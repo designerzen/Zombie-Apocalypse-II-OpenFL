@@ -1,12 +1,12 @@
 package views.components.characters;
 
-import nme.Assets;
-import nme.geom.Rectangle;
-import nme.media.Sound;
+import openfl.Assets;
+import openfl.geom.Rectangle;
+import openfl.media.Sound;
 import views.sprites.tools.SpriteSheetCreator;
 import views.components.characters.ICharacter;
 
-class NudeZombie extends Character, implements ICharacter
+class NudeZombie extends Character implements ICharacter
 {
 	static public inline var TYPE:String = "Nudie";
 

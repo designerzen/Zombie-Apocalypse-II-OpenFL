@@ -5,12 +5,12 @@
 ////////////////////////////////////////////////////////////////////////////*/
 package views.sprites.tools;
 
-import nme.display.Bitmap;
-import nme.display.BitmapData;
-import nme.display.Shape;
-import nme.display.Sprite;
-import nme.events.Event;
-import nme.events.MouseEvent;
+import openfl.display.Bitmap;
+import openfl.display.BitmapData;
+import openfl.display.Shape;
+import openfl.display.Sprite;
+import openfl.events.Event;
+import openfl.events.MouseEvent;
 
 /*
  

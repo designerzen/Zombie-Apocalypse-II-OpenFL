@@ -2,12 +2,12 @@ package views.sections;
 
 import flash.events.Event;
 import models.events.SectionEvent;
-import nme.Assets;
-import nme.display.BitmapData;
-import nme.geom.Point;
-import nme.geom.Rectangle;
-import nme.media.Sound;
-import nme.media.SoundChannel;
+import openfl.Assets;
+import openfl.display.BitmapData;
+import openfl.geom.Point;
+import openfl.geom.Rectangle;
+import openfl.media.Sound;
+import openfl.media.SoundChannel;
 import views.components.animations.BloodDripping;
 import views.components.characters.PriestZombie;
 import views.components.characters.Torso;
@@ -40,7 +40,7 @@ class TitleScreen extends Section
 		#end
 	}
 	
-	override private function added():Dynamic 
+	override private function added():Void 
 	{
 		blood.registerBitmap( background );
 		// start music
@@ -50,7 +50,7 @@ class TitleScreen extends Section
 		addChild( new PriestZombie( new Rectangle() ) );
 	}
 	
-	override private function removed():Dynamic 
+	override private function removed():Void 
 	{
 		soundChannel.stop();
 		soundTrack = null;

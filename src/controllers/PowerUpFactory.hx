@@ -1,5 +1,5 @@
 package controllers;
-import nme.geom.Rectangle;
+import openfl.geom.Rectangle;
 
 /**
  * ...
@@ -21,11 +21,13 @@ private var gamePort:Rectangle;
 	{
 		for ( c in 0...quantity )
 		{
-			switch ( Std.int( Math.random() * 3) )
+			var integer:Int = Std.int( Math.random() * 3);
+			switch ( integer )
 			{
 				//case 0: add( new PriestZombie( gamePort ) );
 				//case 1: add( new NudeZombie( gamePort ) );
-			//	case 2: add( new Torso( gamePort ) );
+				//	case 2: add( new Torso( gamePort ) );
+				default:
 			}
 		}
 	} 
